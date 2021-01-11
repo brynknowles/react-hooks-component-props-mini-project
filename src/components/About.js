@@ -1,9 +1,12 @@
 
-function About() {
+function About({ aboutImg = "https://via.placeholder.com/215", aboutTxt }) {
+    console.log("image in About: ", aboutImg)
+    // const image = 
+
     return (
         <aside>
-            <img src="https://via.placeholder.com/215" alt="blog logo" />
-            <p>About Text For Blog Here</p>
+            <img src={aboutImg} alt="blog logo" />
+            <p>{aboutTxt}</p>
         </aside>
     )
 }
