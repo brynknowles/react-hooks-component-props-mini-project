@@ -1,7 +1,6 @@
 
 function About({ aboutImg = "https://via.placeholder.com/215", aboutTxt }) {
     console.log("image in About: ", aboutImg)
-    // const image = 
 
     return (
         <aside>

@@ -1,11 +1,11 @@
 
-function Article() {
+function Article({ title, date, preview, minutes }) {
     return (
-        <>
-            <h3>Article Name Here</h3>
-            <small> Date of Article Here</small>
-            <p>Preview of Article Here</p>
-        </>
+        <div>
+            <h3>{title}</h3>
+            <small>{date}</small>
+            <p>{preview}</p>
+        </div>
     )
 }
 
